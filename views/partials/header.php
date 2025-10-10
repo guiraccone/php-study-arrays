@@ -16,8 +16,8 @@
           </div>
           <div class="hidden lg:flex lg:gap-x-12">
               <a href="/" class="<?= urlIs('/') ? "bg-gray-800 text-gray" : "text-white"; ?> text-sm/6 font-semibold">Home</a>
-              <a href="/about.php" class="<?= urlIs('/about.php') ? "bg-gray-800 text-gray" : "text-white"; ?> text-sm/6 font-semibold text-white">About</a>
-              <a href="/contact.php" class="<?= $_SERVER['REQUEST_URI'] === '/contact.php' ? "bg-gray-800 text-gray" : "text-white"; ?>text-sm/6 font-semibold text-white">Contact</a>
+              <a href="/about" class="<?= urlIs('/about') ? "bg-gray-800 text-gray" : "text-white"; ?> text-sm/6 font-semibold text-white">About</a>
+              <a href="/contact" class="<?= $_SERVER['REQUEST_URI'] === '/contact' ? "bg-gray-800 text-gray" : "text-white"; ?>text-sm/6 font-semibold text-white">Contact</a>
           </div>
           <div class="hidden lg:flex lg:flex-1 lg:justify-end">
               <a href="#" class="text-sm/6 font-semibold text-white">Log in <span aria-hidden="true">&rarr;</span></a>
