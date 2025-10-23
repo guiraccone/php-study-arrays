@@ -7,7 +7,7 @@
         <p class="mb-6"> <a href="/notes" class="text-white bg-blue-700 rounded ">&larr; Return </a>
         </p>
         <div class="text-center text-white">
-            <?= $note['body']; ?>
+            <?= htmlspecialchars($note['body']); ?>
         </div>
     </div>
 </main>
