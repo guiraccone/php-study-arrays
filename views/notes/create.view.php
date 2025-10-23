@@ -1,5 +1,5 @@
-<?php require "partials/head.php"; ?>
-<?php require "partials/header.php"; ?>
+<?php require __DIR__ . "/../partials/head.php"; ?>
+<?php require __DIR__ . "/../partials/header.php"; ?>
 <main class="p-20">
     <form method="POST">
         <div class="space-y-12">
@@ -30,4 +30,4 @@
                     </div>
     </form>
 </main>
-<?php require "partials/footer.php"; ?>
+<?php require __DIR__ . "/../partials/footer.php"; ?>
