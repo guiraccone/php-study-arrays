@@ -1,11 +1,11 @@
 <?php
 
+use Core\Database;
+use Core\Validator;
 
 $config = require basePath("config.php");
 $db = new Database($config['database']);
 $errors = [];
-
-
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 

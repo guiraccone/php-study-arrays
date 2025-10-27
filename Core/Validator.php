@@ -1,5 +1,7 @@
 <?php
 
+namespace Core;
+
 class Validator
 {
     // This method doesn't depend on instance state or external objects, 

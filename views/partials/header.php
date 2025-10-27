@@ -15,10 +15,10 @@
               </button>
           </div>
           <div class="hidden lg:flex lg:gap-x-12">
-              <a href="/" class="<?= urlIs('/') ? "bg-gray-800 text-gray" : "text-white"; ?> text-sm/6 font-semibold">Home</a>
-              <a href="/about" class="<?= urlIs('/about') ? "bg-gray-800 text-gray" : "text-white"; ?> text-sm/6 font-semibold text-white">About</a>
-              <a href="/notes" class="<?= urlIs('/notes') ? "bg-gray-800 text-gray" : "text-white"; ?> text-sm/6 font-semibold text-white">Notes</a>
-              <a href="/contact" class="<?= urlIs("/contact") ? "bg-gray-800 text-gray" : "text-white"; ?>text-sm/6 font-semibold text-white">Contact</a>
+              <a href="/" class="<?= urlIs('/') ? "bg-gray-800 text-white rounded-xl" : "text-gray-300"; ?> text-sm/6 font-semibold w-">Home</a>
+              <a href="/about" class="<?= urlIs('/about') ? "bg-gray-800 text-white rounded-xl" : "text-gray-300"; ?> text-sm/6 font-semibold">About</a>
+              <a href="/notes" class="<?= urlIs('/notes') ? "bg-gray-800 text-white rounded-xl" : "text-gray-300"; ?> text-sm/6 font-semibold ">Notes</a>
+              <a href="/contact" class="<?= urlIs("/contact") ? "bg-gray-800 text-white rounded-xl" : "text-gray-300"; ?> text-sm/6 font-semibold ">Contact</a>
           </div>
       </nav>
 
