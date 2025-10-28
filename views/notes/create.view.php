@@ -1,7 +1,7 @@
 <?php require __DIR__ . "/../partials/head.php"; ?>
 <?php require __DIR__ . "/../partials/header.php"; ?>
 <main class="p-20">
-    <form method="POST">
+    <form method="POST" action="/notes">
         <div class="space-y-12">
             <div class="border-b border-white/10 pb-12">
                 <h2 class="text-base/7 font-semibold text-white"><?= $heading ?></h2>
