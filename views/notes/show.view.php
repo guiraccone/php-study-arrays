@@ -7,16 +7,15 @@
 
 
     <div class="mx-auto max-w-2xl  py-32 sm:py-48 lg:py-56">
-        <p class="mb-6"> <a href="/notes" class="text-white bg-blue-700 rounded ">&larr; Return </a>
-        </p>
+        <a href="/notes" class="text-white bg-gray-700 rounded mb-6 px-4">&larr; Go back </a>
         <div class="text-center text-white">
             <?= htmlspecialchars($note['body']); ?>
         </div>
-        <form method="POST" class="mt-6">
-            <input type="hidden" name="_method" value="DELETE">
-            <input type="hidden" name="id" value="<?= $note['id'] ?>">
-            <button class="text-sm bg-red-500 text-white hover:bg-red-800 rounded">Delete</button>
-        </form>
+
+        <footer class="mt-6">
+            <a href="/note/edit?id=<?= $note['id']; ?>" class="text-white bg-blue-700 rounded px-4 ">Edit </a>
+        </footer>
+
     </div>
 
 
