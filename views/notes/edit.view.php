@@ -1,5 +1,6 @@
-<?php require __DIR__ . "/../partials/head.php"; ?>
-<?php require __DIR__ . "/../partials/header.php"; ?>
+<?php require basePath('views/partials/head.php') ?>
+<?php require basePath('views/partials/header.php') ?>
+<?php require basePath('views/partials/banner.php') ?>
 <main class="p-20">
     <form method="POST" action="/note">
         <input type="hidden" name="_method" value="PATCH">
@@ -32,4 +33,4 @@
                     </div>
     </form>
 </main>
-<?php require __DIR__ . "/../partials/footer.php"; ?>
+<?php require basePath('views/partials/footer.php') ?>

@@ -3,7 +3,12 @@
           <div class="flex lg:flex-1">
               <a href="#" class="-m-1.5 p-1.5">
                   <span class="sr-only">Your Company</span>
-                  <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="" class="h-8 w-auto" />
+                  <?php if ($_SESSION['user'] ?? false) : ?>
+                      <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="" class="h-8 w-auto" />
+                  <?php else: ?>
+                      <a href="/register" class="h-8 w-auto text-white">Register here</a>
+                  <?php endif ?>
+
               </a>
           </div>
           <div class="flex lg:hidden">

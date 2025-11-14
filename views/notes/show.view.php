@@ -1,5 +1,6 @@
-<?php require __DIR__ . "/../partials/head.php"; ?>
-<?php require __DIR__ . "/../partials/header.php"; ?>
+<?php require basePath('views/partials/head.php') ?>
+<?php require basePath('views/partials/header.php') ?>
+<?php require basePath('views/partials/banner.php') ?>
 <!-- There should be a pain point in the application that leads us to refactoring. 
  There is no need to refactor without any reason. -->
 <main>
@@ -22,4 +23,4 @@
 </main>
 
 
-<?php require __DIR__ . "/../partials/footer.php"; ?>
+<?php require basePath('views/partials/footer.php') ?>
